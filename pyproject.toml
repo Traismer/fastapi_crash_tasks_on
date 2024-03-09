@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi_crash_tasks_one"
+version = "0.1.0"
+description = "Первая программа на fastapi"
+authors = ["Traismer <alekstrais@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.0"
+uvicorn = "^0.28.0"
+sqlalchemy = "^2.0.28"
+aiosqlite = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
